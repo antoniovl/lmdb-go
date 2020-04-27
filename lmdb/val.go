@@ -8,9 +8,8 @@ package lmdb
 import "C"
 
 import (
+	"lmdb-go/internal/lmdbarch"
 	"unsafe"
-
-	"github.com/antoniovl/lmdb-go/internal/lmdbarch"
 )
 
 // valSizeBits is the number of bits which constraining the length of the
