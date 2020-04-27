@@ -8,7 +8,7 @@ package lmdb
 import "C"
 
 import (
-	"lmdb-go/internal/lmdbarch"
+	"github.com/antoniovl/lmdb-go/internal/lmdbarch"
 	"unsafe"
 )
 

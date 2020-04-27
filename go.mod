@@ -1,8 +1,5 @@
-module lmdb-go
+module github.com/antoniovl/lmdb-go
 
 go 1.14
 
-require (
-	github.com/antoniovl/lmdb-go v1.8.0
-	golang.org/x/net v0.0.0-20200425230154-ff2c4b7c35a0
-)
+require golang.org/x/net v0.0.0-20200425230154-ff2c4b7c35a0
